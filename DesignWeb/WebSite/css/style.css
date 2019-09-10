@@ -5,10 +5,11 @@
     padding-top: 200px;
 }
 .background{
-    background-image: url("../img/moddingcomputer.jpg");
-    height: 540px;
+    background-image: url("../img/computex-17-inwinbot-mod.jpg");
+    height: 1292px;
     background-repeat: no-repeat;
     background-position: center;
+    width: 1920px;
 }
 hr{
     max-width: 50px;
@@ -18,5 +19,4 @@ hr{
 h2{
  text-align: center;
  color: white;
- te
 }
