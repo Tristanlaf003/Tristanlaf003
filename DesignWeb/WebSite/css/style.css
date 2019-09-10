@@ -1,0 +1,22 @@
+.computerModding{
+    text-align: center;
+    color: white ;
+    align-items: center;
+    padding-top: 200px;
+}
+.background{
+    background-image: url("../img/moddingcomputer.jpg");
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+hr{
+    max-width: 50px;
+    border-width: 5px;
+    border-color: white;
+}
+h2{
+ text-align: center;
+ color: white;
+ te
+}
