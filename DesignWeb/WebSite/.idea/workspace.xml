@@ -2,37 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60015397-6437-4272-9e9b-86285edc079d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Timeplate/.idea/Timeplate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Timeplate/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/12124959379l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/IMG_0539-2060x1373.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/computer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/images.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tumblr_plrjt6My3X1ttdj5k_1280.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/turning.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -120,7 +89,7 @@
       <workItem from="1568303269475" duration="29000" />
       <workItem from="1568393547463" duration="18000" />
       <workItem from="1568393565943" duration="466000" />
-      <workItem from="1568394259723" duration="6118000" />
+      <workItem from="1568394259723" duration="6861000" />
     </task>
     <servers />
   </component>
