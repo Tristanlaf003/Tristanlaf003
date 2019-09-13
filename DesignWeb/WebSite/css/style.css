@@ -1,3 +1,6 @@
+html{
+    font-size: 10px;
+}
 .computerModding{
     text-align: center;
     color: white ;
@@ -19,4 +22,58 @@ hr{
 h2{
  text-align: center;
  color: white;
+}
+button{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+}
+.red{
+    color: white;
+    background-color: red;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.buttondeux{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 2.5rem;
+}
+.lienpournousrejoindre{
+    text-align: center;
+}
+.ligne{
+    max-width: 50px;
+    border-width: 5px;
+    border-color: red;
+}
+.fa-facebook{
+    color: blue;
+    font-size: 200px;
+
+}
+.fa-twitter{
+    color: blue;
+    font-size: 200px;
+}
+.fa-instagram{
+    font-size: 200px;
+    color: magenta;
+}
+.fa-reddit{
+    font-size: 200px;
+    color: red;
+}
+.img{
+    width: 52.8rem;
+    height: 40.0rem;
+
+}
+.img2{
+    width: 52.8rem;
+    height: 40rem;
+}
+p{
+    font-size: 1.5rem;
 }
