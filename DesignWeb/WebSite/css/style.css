@@ -1,22 +1,20 @@
-html{
-    font-size: 10px;
-}
+
 .computerModding{
     text-align: center;
     color: white ;
     align-items: center;
-    padding-top: 20.0rem;
+    padding-top: 200px;
 }
 .background{
     background-image: url("../img/computex-17-inwinbot-mod.jpg");
-    height: 129.2rem;
+    height: 1292px;
     background-repeat: no-repeat;
     background-position: center;
-    width: 192.0rem;
+    width: 1920px;
 }
 hr{
-    max-width: 5.0rem;
-    border-width: 0.5rem;
+    max-width: 50px;
+    border-width: 5px;
     border-color: white;
 }
 h2{
@@ -26,54 +24,51 @@ h2{
 button{
     background-color: red;
     border: none;
-    border-radius: 1.0rem;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 30px;
 }
 .red{
     color: white;
     background-color: red;
-    padding-bottom: 5.0rem;
-    padding-top: 5.0rem;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .buttondeux{
     background-color: white;
     border: none;
-    border-radius: 1.0rem;
-    font-size: 2.5rem;
+    border-radius: 10px;
+    font-size: 25px;
 }
 .lienpournousrejoindre{
     text-align: center;
 }
 .ligne{
-    max-width: 5.0rem;
-    border-width: 0.5rem;
+    max-width: 50px;
+    border-width: 5px;
     border-color: red;
 }
 .fa-facebook{
     color: blue;
-    font-size: 20.0rem;
+    font-size: 200px;
 
 }
 .fa-twitter{
     color: blue;
-    font-size: 20.0rem;
+    font-size: 200px;
 }
 .fa-instagram{
-    font-size: 20.0rem;
+    font-size: 200px;
     color: magenta;
 }
 .fa-reddit{
-    font-size: 20.0rem;
+    font-size: 200px;
     color: red;
 }
-.img{
-    width: 52.8rem;
-    height: 40.0rem;
+img{
+    width: 634px;
+}
 
-}
-.img2{
-    width: 52.8rem;
-    height: 40rem;
-}
 p{
-    font-size: 1.5rem;
+    font-size: 15px;
 }
