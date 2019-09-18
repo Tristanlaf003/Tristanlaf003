@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60015397-6437-4272-9e9b-86285edc079d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../siteFacebook/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../siteFacebook1/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../siteFacebook1/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../siteFacebook1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../siteFacebook1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +102,8 @@
       <workItem from="1568426070405" duration="258000" />
       <workItem from="1568426354551" duration="30000" />
       <workItem from="1568737940607" duration="374000" />
+      <workItem from="1568738525120" duration="79000" />
+      <workItem from="1568816961355" duration="645000" />
     </task>
     <servers />
   </component>
