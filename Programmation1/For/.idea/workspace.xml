@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2da3774-5022-4d83-a745-650f2856a545" name="Default Changelist" comment="" />
+    <list default="true" id="79dfc5e1-9d72-4e1f-a01e-6a9616ef7eeb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,21 +13,12 @@
       <executable />
     </execution>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
   </component>
-  <component name="ProjectId" id="1SVwdddcl40Rx1NYwiYB0izvLxq" />
+  <component name="ProjectId" id="1SZ22UabGdvGSOP6UH6akqCAQLS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -48,15 +39,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e2da3774-5022-4d83-a745-650f2856a545" name="Default Changelist" comment="" />
-      <created>1571662159896</created>
+      <changelist id="79dfc5e1-9d72-4e1f-a01e-6a9616ef7eeb" name="Default Changelist" comment="" />
+      <created>1571756589273</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571662159896</updated>
-      <workItem from="1571662161280" duration="3798000" />
-      <workItem from="1571759697188" duration="1644000" />
-      <workItem from="1571935832572" duration="73000" />
-      <workItem from="1571936466558" duration="596000" />
+      <updated>1571756589273</updated>
+      <workItem from="1571756590430" duration="116000" />
+      <workItem from="1571756995821" duration="894000" />
     </task>
     <servers />
   </component>
