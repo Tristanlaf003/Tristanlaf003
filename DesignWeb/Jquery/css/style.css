@@ -1,0 +1,72 @@
+html,body { margin:0; height:100%;}
+.boxGros{
+    overflow: hidden;
+}
+.padding{
+    padding-top: 100px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+
+}
+.box1{
+    background-image: url("../image/Volleyball3.jpg");
+    background-size: contain;
+    background-size: cover;
+    transition: transform .2s;
+}
+.box2{
+    background-image: url("../image/football3.jpg");
+    background-size: contain;
+    background-size: cover;
+    transition: transform .2s;
+
+}
+.box3{
+    background-image: url("../image/hockey3.jpg");
+    background-size: contain;
+    background-size: cover;
+    transition: transform .2s;
+}
+
+.bouton1{
+    margin-top: 25px;
+    margin-bottom: 175px;
+
+}
+.bouton2{
+    margin-top: 25px;
+    margin-bottom: 175px;
+ }
+.bouton3{
+    margin-top: 25px;
+    margin-bottom: 175px;
+}
+
+
+p{
+    display: none;
+    color: white;
+}
+
+.p1{
+    padding-bottom: 72px;
+}
+.p2{
+    padding-bottom: 72px;
+}
+.p3{
+    padding-bottom: 50px;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+}
+.box2:hover{
+    transform: scale(1.1);
+}
+.box3:hover{
+    transform: scale(1.1);
+}
