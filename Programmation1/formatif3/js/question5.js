@@ -1,7 +1,7 @@
 var i=1, z=5, Nombre=3;
 var Nom="Maison";
 var affiche ="";
-        1
+
 while (i<5){
     Nombre = Nombre * 2;
     if (Nombre > 24)

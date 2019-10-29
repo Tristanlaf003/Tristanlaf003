@@ -20,7 +20,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../formatif3" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,6 +46,7 @@
       <updated>1571935905182</updated>
       <workItem from="1571935906342" duration="7000" />
       <workItem from="1571935928945" duration="122000" />
+      <workItem from="1572264537108" duration="18000" />
     </task>
     <servers />
   </component>

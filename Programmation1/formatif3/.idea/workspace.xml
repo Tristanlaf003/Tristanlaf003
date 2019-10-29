@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DesignWeb/Jquery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,6 +56,10 @@
       <workItem from="1571937063750" duration="6343000" />
       <workItem from="1571956969140" duration="3364000" />
       <workItem from="1571963256570" duration="22000" />
+      <workItem from="1572264556443" duration="6256000" />
+      <workItem from="1572277768895" duration="61000" />
+      <workItem from="1572279039041" duration="190000" />
+      <workItem from="1572361926277" duration="1411000" />
     </task>
     <servers />
   </component>
