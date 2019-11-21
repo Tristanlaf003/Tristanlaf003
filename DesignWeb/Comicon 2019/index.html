@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+  <meta charset="utf-8">
+	<title>Comicon</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/jquery-3.4.1.min.js" defer></script>
+	<script src="js/bootstrap.js" defer></script>
+	<script src="js/comicon.js" defer></script>
+</head>
+<body>
+<form id="'formulaire">
+	<div class="container-fluid">
+		<div class="form-row">
+			<div class="col">
+			<label for="textNom">Nom d'utilisateur</label>
+			<input type="text" class="form-control" name="textNom" id="textNom" placeholder="Nom d'utilisateur"/>
+				<span class="error" id="errerUser"></span>
+		</div>
+			<div class="col">
+				<label for="inputPassword4">Mot de passe</label>
+				<input type="password" class="form-control" name="password" id="inputPassword4" placeholder="Password">
+				<span class="error" id="errerPassword">Faible</span>
+			</div>
+			<div class="col">
+				<label for="inputPassword5">Reconfirmer le mot de passe</label>
+				<input type="password" class="form-control" id="inputPassword5" placeholder="Password">
+				<span class="error" id="errerPassword2"></span>
+			</div>
+		</div>
+		<div class="form-row">
+			<label for="inputEmail">Email</label>
+			<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+			<span class="error" id="errerEmail"></span>
+		</div>
+		<input type="radio" name="gender" value="Starwars" id="starwars"> Starwars<br>
+		<div class="col-3" id="starwars23" >
+		</div>
+		<div class="col-3" id="starwars24" >
+		</div>
+		<input type="radio" name="gender" value="Marvel" id="marvel"> Marvel<br>
+		<div class="col-3" id="marvel23" >
+		</div>
+		<div class="col-3" id="marvel24" >
+		</div>
+		<input type="radio" name="gender" value="Dc" id="dc"> DC<br>
+		<div class="col-3" id="dc23" >
+		</div>
+		<div class="col-3" id="dc24" >
+		</div>
+		<button id='button' type="button" class="btn btn-dark">Validation</button>
+	</div>
+</form>
+</body>
+</html>

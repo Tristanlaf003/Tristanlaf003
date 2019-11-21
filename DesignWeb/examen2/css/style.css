@@ -1,0 +1,106 @@
+html,body{
+    font-size: 10px;
+}
+.buttonCarousel{
+   margin-left: 45%;
+}
+
+.margin{
+    margin-top: 70px;
+}
+
+.form-group{
+    margin-top: 30px;
+}
+
+.cardbg{
+    background-color: #343a40;
+}
+
+.cardbg2{
+    background-image: url("../img/background/bleu.jpg");
+}
+.caractereSpeciaux{
+    font-size: 1rem;
+}
+.btn{
+    color: white;
+}
+.form-control{
+    text-align: center;
+ }
+#error{
+    font-size: 1rem;
+    color: red;
+    visibility: hidden;
+}
+#button2{
+    visibility: hidden;
+}
+#button4{
+    margin-left: 5px;
+}
+
+body {
+    padding-top: 20px;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.slide-box {
+    display: flex;
+    justify-content: space-between;
+}
+.slide-box1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slide-box img {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .slide-box1 img {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slide-box img {
+        -ms-flex: 0 0 33.3333%;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+    .slide-box1 img {
+        -ms-flex: 0 0 33.3333%;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .slide-box img {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .slide-box1 img {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: .5rem;
+}

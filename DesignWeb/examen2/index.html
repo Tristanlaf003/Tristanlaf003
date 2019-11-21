@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+  <meta charset="utf-8">
+	<title>PhotoCiti</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/jquery-3.4.1.min.js" defer></script>
+	<script src="js/bootstrap.js" defer></script>
+	<script src="js/PhotoCiti.js" defer></script>
+</head>
+<body>
+<div class="text-center margin d-print-none">
+	<img src="img/photociti.JPG" height="90" width="516"/>
+</div>
+<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel"></h4>
+			</div>
+            <div class="container">
+                <div class="row">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-none d-lg-block">
+                                    <div class="slide-box">
+                                        <div><img src="img/Letters/J/J1.jpg" class="change"></div>
+                                        <div><img src="img/Letters/J/J2.jpg" class="change"></div>
+                                        <div><img src="img/Letters/J/J3.jpg" class="change"></div>
+                                        <div><img src="img/Letters/J/J4.jpg" class="change"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-none d-lg-block">
+                                    <div class="slide-box1">
+                                        <div><img src="img/Letters/J/J5.jpg" class="change"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+			<div class="container-fluid buttonCarousel">
+				<div class="row">
+					<div>
+						<a class="" href="#carousel" role="button" data-slide="prev">
+							<button type="button" class="btn btn-secondary"><</button>
+						</a>
+					</div>
+					<div>
+						<a class="" href="#carousel" role="button" data-slide="next">
+							<button type="button" class="btn btn-secondary">></button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button id="button3" type="button" class="btn btn-default" data-dismiss="modal">Sauvegardé</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Fermé</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+		<form>
+			<div class="form-group offset-3 col-6 text-center d-print-none">
+				<label>Entrez votre mot</label>
+				<div class="input-group">
+					<input type="text" class="form-control" id="barre" placeholder="3 à 12 caractères" aria-label="Recipient's username" aria-describedby="basic-addon2">
+					<div class="input-group-append">
+						<button class="btn btn-dark" id="button" type="button">OK</button>
+
+					</div>
+					<button class="btn btn-dark" type="button" data-toggle="modal" data-target="#background">Changé le background</button>
+				</div>
+				<p class="caractereSpeciaux">Utilisez * pour les caractères spéciaux</p>
+				<p id="error">mot invalide</p>
+			</div>
+		</form>
+</div>
+
+<div id="background" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+					<div class="row">
+						<div class="col-2">
+							<img src="img/background/bleu.jpg" class="img-fluid back" id="arriere1"/>
+						</div>
+						<div class="col-2">
+							<img src="img/background/bleuFonce.jpg" class="img-fluid back" id="arriere2"/>
+						</div>
+						<div class="col-2">
+							<img src="img/background/gris.jpg" class="img-fluid back" id="arriere3"/>
+						</div>
+						<div class="col-2">
+							<img src="img/background/noir.jpg" class="img-fluid back" id="arriere4"/>
+						</div>
+						<div class="col-2">
+							<img src="img/background/rose.jpg" class="img-fluid back" id="arriere5"/>
+						</div>
+						<div class="col-2">
+							<img src="img/background/rouge.jpg" class="img-fluid back" id="arriere6"/>
+						</div>
+					</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Fermé</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="card cardbg">
+		<div class="card-body">
+			<div class="card cardbg2">
+				<div class="card-body" id="card">
+					<div class="row" id="image">
+						<div class="col-1">
+							<img src="img/Letters/J/J1.jpg" class="img-fluid lettre" id="0"/>
+						</div>
+						<div class="col-1">
+							<img src="img/Letters/A/A1.jpg" class="img-fluid lettre" id="1"/>
+						</div>
+						<div class="col-1">
+							<img src="img/Letters/V/V1.jpg" class="img-fluid lettre" id="2"/>
+						</div>
+						<div class="col-1">
+							<img src="img/Letters/A/A1.jpg" class="img-fluid lettre" id="3"/>
+						</div>
+						<div class="col-1">
+							<img src="img/Letters/S/S1.jpg" class="img-fluid lettre" id="4"/>
+						</div>
+						<div class="col-1">
+							<img src="img/Letters/C/C1.jpg" class="img-fluid lettre" id="5"/>
+						</div>
+						<div class="col-1">
+							<img src="img/Letters/R/R1.jpg" class="img-fluid lettre" id="6"/>
+						</div>
+						<div class="col-1">
+							<img src="img/Letters/I/I1.jpg" class="img-fluid lettre" id="7"/>
+						</div>
+						<div class="col-1">
+							<img src="img/Letters/P/P1.jpg" class="img-fluid lettre" id="8"/>
+						</div>
+						<div class="col-1">
+							<img src="img/Letters/T/T1.jpg" class="img-fluid lettre" id="9"/>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -75,6 +75,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1Rc4koGvc2yfqDhZTxFebGLrT8J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -102,6 +103,9 @@
       <option name="presentableId" value="Default" />
       <updated>1569953285791</updated>
       <workItem from="1569953287012" duration="1076000" />
+      <workItem from="1573579733216" duration="6000" />
+      <workItem from="1573822776094" duration="5000" />
+      <workItem from="1574291918046" duration="1538000" />
     </task>
     <servers />
   </component>
@@ -113,7 +117,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

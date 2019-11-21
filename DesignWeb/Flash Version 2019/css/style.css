@@ -1,0 +1,31 @@
+html,body { margin:0; height:100%;}
+
+.centralCity{
+    background-image: url("../img/centralCity.jpg");
+}
+
+.textFlash{
+    color: #FEDF1A;
+}
+
+.h-10{
+    height: 10%;
+}
+
+.flashClass{
+    position: relative;
+}
+
+#flashID2{
+    display: none;
+}
+
+#eclair{
+    visibility: hidden;
+    margin-top: -1000px;
+    margin-left: 400px;
+}
+
+body{
+    background-color: black;
+}

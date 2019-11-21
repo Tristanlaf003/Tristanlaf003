@@ -1,0 +1,12 @@
+#errerUser{
+    color: red;
+    visibility: hidden;
+}
+#errerPassword{
+    color: red;
+    visibility: hidden;
+}
+#errerEmail{
+    color: red;
+    visibility: visible;
+}
