@@ -1,4 +1,3 @@
-
 var bonneReponse = 0;
 var mauvaiseReponse = 0;
 var boucle = 1;
@@ -23,7 +22,7 @@ for (var i = 1; i <= boucle ; i++) {
         boucle++;
     } else if (nombre === 5) {
         bonneReponse++;
-        alert("Album Jazz")
+        alert("Album Jazz");
         boucle++;
     } else if (nombre === 0) {
         alert("Nombre de bonnes réponses : " + bonneReponse + "\nNombre de mauvaises réponses : " + mauvaiseReponse);

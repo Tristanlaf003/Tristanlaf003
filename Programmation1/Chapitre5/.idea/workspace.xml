@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c475c061-f15f-4c1f-bc0b-1a3bf711a985" name="Default Changelist" comment="" />
+    <list default="true" id="a5b64510-88a6-4a1e-8d04-5cea96ee0ea9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +13,23 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1SetUZH443A5OInOxtZonlE0B37" />
+  <component name="ProjectId" id="1T9WtCNIVBH2Wv7XpLWEM4R63QQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../formatif3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DesignWeb/Casse-Tete" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,15 +48,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c475c061-f15f-4c1f-bc0b-1a3bf711a985" name="Default Changelist" comment="" />
-      <created>1571935905182</created>
+      <changelist id="a5b64510-88a6-4a1e-8d04-5cea96ee0ea9" name="Default Changelist" comment="" />
+      <created>1572873003092</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571935905182</updated>
-      <workItem from="1571935906342" duration="7000" />
-      <workItem from="1571935928945" duration="122000" />
-      <workItem from="1572264537108" duration="18000" />
-      <workItem from="1572539953735" duration="7000" />
+      <updated>1572873003092</updated>
+      <workItem from="1572873004234" duration="6595000" />
+      <workItem from="1572887278333" duration="633000" />
+      <workItem from="1572888301468" duration="1296000" />
+      <workItem from="1572974280684" duration="44000" />
     </task>
     <servers />
   </component>

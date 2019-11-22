@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c475c061-f15f-4c1f-bc0b-1a3bf711a985" name="Default Changelist" comment="" />
+    <list default="true" id="75986fb7-1ada-449a-a996-2fa9c8df6e26" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +13,23 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1SetUZH443A5OInOxtZonlE0B37" />
+  <component name="ProjectId" id="1Syl4zYNQnUf19HORYwbMxD3loZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../formatif3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DesignWeb/Flash Version 2019/Flash Version 2019" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,15 +48,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c475c061-f15f-4c1f-bc0b-1a3bf711a985" name="Default Changelist" comment="" />
-      <created>1571935905182</created>
+      <changelist id="75986fb7-1ada-449a-a996-2fa9c8df6e26" name="Default Changelist" comment="" />
+      <created>1572543528170</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571935905182</updated>
-      <workItem from="1571935906342" duration="7000" />
-      <workItem from="1571935928945" duration="122000" />
-      <workItem from="1572264537108" duration="18000" />
-      <workItem from="1572539953735" duration="7000" />
+      <updated>1572543528170</updated>
+      <workItem from="1572543529477" duration="2208000" />
+      <workItem from="1572626562730" duration="33000" />
     </task>
     <servers />
   </component>

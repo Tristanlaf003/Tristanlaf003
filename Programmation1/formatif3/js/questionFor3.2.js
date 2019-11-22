@@ -6,7 +6,7 @@ var espaces = 5;
 for (var i = 0; i < lignes; i++){
     for (var j = 0; j < colonnes; j++ ){
         if (j === 0){
-            for (var k = 40 ; k < espaces; k--){
+            for (var k = 0 ; k < espaces; k++){
                 document.write(".");
             }
             espaces +=5;
