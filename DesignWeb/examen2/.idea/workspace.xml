@@ -14,13 +14,13 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
   </component>
   <component name="ProjectId" id="1TqLTcthDjj5FBcqjFhxC3P0f3k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,6 +63,8 @@
       <workItem from="1574379047980" duration="29000" />
       <workItem from="1574379113238" duration="668000" />
       <workItem from="1574380042989" duration="263000" />
+      <workItem from="1574427445355" duration="1033000" />
+      <workItem from="1574446154193" duration="903000" />
     </task>
     <servers />
   </component>

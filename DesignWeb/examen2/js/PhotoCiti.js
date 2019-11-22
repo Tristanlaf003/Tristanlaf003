@@ -2,7 +2,6 @@ var imageSRC;
 var imageID;
 var nouvelleImageSCR;
 var nouvelleImageID;
-var imageSRC1;
 $('#button').click(function () {
         var longueur = $('#barre').val();
         if (longueur.length < 3){

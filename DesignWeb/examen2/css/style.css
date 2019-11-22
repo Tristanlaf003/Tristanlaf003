@@ -104,3 +104,7 @@ body {
     padding: 20px;
     border-radius: .5rem;
 }
+
+.pointer {cursor: pointer;}
+.lettre {cursor: pointer;}
+.change {cursor: pointer;}
