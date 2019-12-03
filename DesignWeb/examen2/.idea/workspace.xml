@@ -14,13 +14,13 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1TqLTcthDjj5FBcqjFhxC3P0f3k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -65,6 +65,17 @@
       <workItem from="1574380042989" duration="263000" />
       <workItem from="1574427445355" duration="1033000" />
       <workItem from="1574446154193" duration="903000" />
+      <workItem from="1574563830146" duration="886000" />
+      <workItem from="1574564737459" duration="28000" />
+      <workItem from="1574566315392" duration="645000" />
+      <workItem from="1574687350189" duration="281000" />
+      <workItem from="1574687770154" duration="19000" />
+      <workItem from="1574789566103" duration="434000" />
+      <workItem from="1574793090294" duration="44000" />
+      <workItem from="1575053028110" duration="22000" />
+      <workItem from="1575375984688" duration="29000" />
+      <workItem from="1575385324862" duration="1000" />
+      <workItem from="1575386913914" duration="27000" />
     </task>
     <servers />
   </component>

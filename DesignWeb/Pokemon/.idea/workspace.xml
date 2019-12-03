@@ -20,7 +20,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Comicon 2019" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../formulaire" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,6 +48,9 @@
       <workItem from="1574081866151" duration="25000" />
       <workItem from="1574093939762" duration="2224000" />
       <workItem from="1574182665128" duration="23000" />
+      <workItem from="1574883468454" duration="28000" />
+      <workItem from="1574883587847" duration="1587000" />
+      <workItem from="1575051435743" duration="5949000" />
     </task>
     <servers />
   </component>

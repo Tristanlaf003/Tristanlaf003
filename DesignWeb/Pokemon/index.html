@@ -13,7 +13,7 @@
 <body>
 <div class="card-body">
 	<div class="row">
-		<div class="column col-5">
+		<div class="column col-3">
 			<form action="">
 				<div class="form-group">
 					<label for="nom">Nom du Pokemon</label>
@@ -24,12 +24,10 @@
 						<option>Grass</option>
 						<option>Water</option>
 						<option>Lightning</option>
-						<option>Psychic</option>
 						<option>Fighting</option>
 						<option>Colorless</option>
 						<option>Steel</option>
 						<option>Dark</option>
-						<option>Dragon</option>
 					</select>
 					<label for="HP">HP</label>
 					<input type="text" class="form-control" id="HP" placeholder="100">
@@ -39,6 +37,12 @@
 						<option>Stage1</option>
 						<option>Stage2</option>
 					</select>
+					<label for="Species">Species</label>
+					<input type="text" class="form-control" id="species">
+					<label for="Lenght">Lenght</label>
+					<input type="text" class="form-control" id="lenght">
+					<label for="Weight">Weight</label>
+					<input type="text" class="form-control" id="weight">
 					<label for="image">Image</label>
 					<select class="form-control" id="image">
 						<option>Celebi</option>
@@ -46,14 +50,36 @@
 						<option>Léviator</option>
 						<option>Pikachu</option>
 					</select>
+
 				</div>
-				<button type="button" id="button" class="btn btn-outline-danger">Danger</button>
 			</form>
+		</div>
+			<div class="column col-3">
+				<label for="Attack1nom">Attack1 (Nom)</label>
+				<input type="text" class="form-control" id="attack1nom">
+				<label for="Attack1dommage">Attack1 (Dégats)</label>
+				<input type="text" class="form-control" id="attack1dommage">
+				<label for="Attack2nom">Attack2 (Nom)</label>
+				<input type="text" class="form-control" id="attack2nom">
+				<label for="Attack2dommage">Attack2 (Dégats)</label>
+				<input type="text" class="form-control" id="attack2dommage">
 			</div>
-			<div class="column col-7 bg">
-				<h1>lol</h1>
+
+			<div class="column col-6 bg">
+				<h4 class="h4nom">Dracaufeu</h4>
+				<h6 class="hp">100 HP</h6>
+				<div class="container-fluid pokemon">
+					<img src="img/Celebi.jpg" class="img-fluid"/>
+				</div>
+				<h6 class="species">Great Pokémon Lenght: 11 Weight: 11</h6>
+				<h6 class="stage">Stage : Basic</h6>
+				<h5 class="attack1nom">Attaque1</h5>
+				<h5 class="attack1degats">100</h5>
+				<h5 class="attack2nom">Attaque2</h5>
+				<h5 class="attack2degats">100</h5>
 			</div>
 		</div>
 	</div>
+
 </body>
 </html>
