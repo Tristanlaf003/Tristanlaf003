@@ -18,6 +18,7 @@
       <list>
         <option value="Sass File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -27,8 +28,9 @@
   <component name="ProjectId" id="1UTiMtgYyqLzbjM3qIiXXlHkBN2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examen2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +61,19 @@
       <option name="presentableId" value="Default" />
       <updated>1575386940955</updated>
       <workItem from="1575386942054" duration="8481000" />
-      <workItem from="1575396257792" duration="407000" />
+      <workItem from="1575396257792" duration="6882000" />
+      <workItem from="1575419565205" duration="91000" />
+      <workItem from="1575422157811" duration="3483000" />
+      <workItem from="1575482153260" duration="29000" />
+      <workItem from="1575501894622" duration="8003000" />
+      <workItem from="1575550709282" duration="662000" />
+      <workItem from="1575551384881" duration="6596000" />
+      <workItem from="1575565771536" duration="1615000" />
+      <workItem from="1575567419623" duration="12000" />
+      <workItem from="1575654056927" duration="937000" />
+      <workItem from="1575655223561" duration="7012000" />
+      <workItem from="1575662275597" duration="34000" />
+      <workItem from="1575675567525" duration="13885000" />
     </task>
     <servers />
   </component>
