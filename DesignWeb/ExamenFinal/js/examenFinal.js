@@ -1,3 +1,5 @@
+AOS.init({duration : 1200,});
+
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover({
         trigger: 'hover',
