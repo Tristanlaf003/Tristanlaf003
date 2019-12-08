@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ca-fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/popper.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/aos.js"></script>
+    <link href="css/aos.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js" defer></script>
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="js/examenFinal.js" defer></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-xl navbar-dark canadien fixed-top">
+    <img src="img/canadien.jpg" height="30"  alt="Logo des Canadien de Montreéal" class="imageCanadien wow wobble">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-chevron-down"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link blanc wow rotateInDownLeft" href="index.html">Acceuil</a></li>
+            <li class="nav-item active"><a class="nav-link blanc wow rotateInUpLeft" href="hockey.html">Canadien de Montréal</a></li>
+            <li class="nav-item"><a class="nav-link blanc wow rotateIn" href='anatomie.html'>Anatomie humaine</a></li>
+            <li class="nav-item"><a class="nav-link blanc wow rotateInUpRight" href="espace.html">L'espace</a></li>
+            <li class="nav-item"><a class="nav-link blanc wow rotateInDownRight" href="informatique.html">L'évolution de l'ordinateur</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="hauteurBarre">
+    <iframe class="video1" src="https://www.youtube.com/embed/7H0YWVTB3rU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h6 class="text-center click" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Attaquants</h6>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <p>*Pour plus d'information sur les joueurs, passer la souris sur le nom du joueur</p>
+            <div class="card-body p">
+                <div class="row noir">
+
+                    <div class="col-4 text-center">
+                        <h6 class="blanc">Joueur</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6 class="blanc">Numéro</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6 class="blanc">Position</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6 class="blanc">IN</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6 class="blanc">Taille</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6 class="blanc">Poids</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <h6 class="click" id="40"  data-toggle="popover" data-img="img/joueur/Armia.jpg" title="Joel Armia <br>Âge : 26 <br> Date de naissance : 31 mai 1993" data-placement="top" data-content="">Joel Armia</h6>
+                        <h6 class="click" id="41"  data-toggle="popover" data-img="img/joueur/Byron.jpg" title="Paul Byron <br>Âge : 30 <br>Date de naissance : 27 avril 1989" data-placement="top" data-content="">Paul Byron</h6>
+                        <h6 class="click" id="21"  data-toggle="popover" data-img="img/joueur/Cousins.jpg" title="Nick Cousins <br>Âge : 26 <br>Date de naissance : 20 juillet 1993" data-placement="top" data-content="">Nick Cousins</h6>
+                        <h6 class="click" id="24"  data-toggle="popover" data-img="img/joueur/Danault.jpg" title="Philip Danault <br>Âge : 26 <br>Date de naissance : 24 février 1993" data-placement="top" data-content="">Philip Danault</h6>
+                        <h6 class="click" id="13"  data-toggle="popover" data-img="img/joueur/Domi.jpg" title="Max Domi <br>Âge : 24 <br>Date de naissance : 2 mars 1995" data-placement="top" data-content="">Max Domi</h6>
+                        <h6 class="click" id="92"  data-toggle="popover" data-img="img/joueur/Drouin.jpg" title="Jonathan Drouin <br>Âge : 24 <br>Date de naissance : 28 mars 1995" data-placement="top" data-content="">Jonathan Drouin</h6>
+                        <h6 class="click" id="11"  data-toggle="popover" data-img="img/joueur/Gallagher.jpg" title="Brendan Gallagher <br>Âge : 27 <br>Date de naissance : 6 mai 1992" data-placement="top" data-content="">Brendan Gallagher</h6>
+                        <h6 class="click" id="54"  data-toggle="popover" data-img="img/joueur/Hudon.jpg" title="Charles Hudon <br>Âge : 25 <br>Date de naissance : 23 juin 1994" data-placement="top" data-content="">Charles Hudon</h6>
+                        <h6 class="click" id="15" data-toggle="popover" data-img="img/joueur/Kotkaniemi.jpg" title="Jesperi Kotkaniemi <br>Âge : 19 <br>Date de naissance : 6 juillet 2000" data-placement="top" data-content="">Jesperi Kotkaniemi</h6>
+                        <h6 class="click" id="62" data-toggle="popover" data-img="img/joueur/Lehkonen.jpg" title="Artturi Lehkonen <br>Âge : 24 <br>Date de naissance : 4 juillet 1995" data-placement="top" data-content="">Artturi Lehkonen</h6>
+                        <h6 class="click" id="63" data-toggle="popover" data-img="img/joueur/Peca.jpg" title="Matthew Peca <br>Âge : 26 <br>Date de naissance : 27 avril 1993" data-placement="top" data-content="">Matthew Peca</h6>
+                        <h6 class="click" id="14" data-toggle="popover" data-img="img/joueur/Suzuki.jpg" title="Nick Suzuki <br>Âge : 20 <br>Date de naissance : 10 août 1999" data-placement="top" data-content="">Nick Suzuki</h6>
+                        <h6 class="click" id="90" data-toggle="popover" data-img="img/joueur/Tatar.jpg" title="Tomas Tatar <br>Âge : 29 <br>Date de naissance : 1 décembre 1990" data-placement="top" data-content="">Tomas Tatar</h6>
+                        <h6 class="click" id="44" data-toggle="popover" data-img="img/joueur/Thompson.jpg" title="Nate Thompson <br>Âge : 35 <br>Date de naissance : 5 octobre 1984" data-placement="top" data-content="">Nate Thompson</h6>
+                        <h6 class="click" id="43" data-toggle="popover" data-img="img/joueur/Weal.jpg" title="Jordan Weal <br>Âge : 27 <br>Date de naissance : 15 avril 1992" data-placement="top" data-content="">Jordan Weal</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6>40</h6>
+                        <h6>41</h6>
+                        <h6>21</h6>
+                        <h6>24</h6>
+                        <h6>13</h6>
+                        <h6>92</h6>
+                        <h6>11</h6>
+                        <h6>54</h6>
+                        <h6>15</h6>
+                        <h6>62</h6>
+                        <h6>63</h6>
+                        <h6>14</h6>
+                        <h6>90</h6>
+                        <h6>44</h6>
+                        <h6>43</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6>AD</h6>
+                        <h6>AG</h6>
+                        <h6>C</h6>
+                        <h6>C</h6>
+                        <h6>C</h6>
+                        <h6>AG</h6>
+                        <h6>AD</h6>
+                        <h6>AG</h6>
+                        <h6>C</h6>
+                        <h6>AG</h6>
+                        <h6>C</h6>
+                        <h6>C</h6>
+                        <h6>AG</h6>
+                        <h6>C</h6>
+                        <h6>C</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6>D</h6>
+                        <h6>G</h6>
+                        <h6>G</h6>
+                        <h6>G</h6>
+                        <h6>G</h6>
+                        <h6>G</h6>
+                        <h6>D</h6>
+                        <h6>G</h6>
+                        <h6>G</h6>
+                        <h6>G</h6>
+                        <h6>G</h6>
+                        <h6>D</h6>
+                        <h6>G</h6>
+                        <h6>G</h6>
+                        <h6>D</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6>193</h6>
+                        <h6>175</h6>
+                        <h6>180</h6>
+                        <h6>185</h6>
+                        <h6>178</h6>
+                        <h6>183</h6>
+                        <h6>175</h6>
+                        <h6>178</h6>
+                        <h6>188</h6>
+                        <h6>183</h6>
+                        <h6>175</h6>
+                        <h6>180</h6>
+                        <h6>178</h6>
+                        <h6>185</h6>
+                        <h6>178</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6>97</h6>
+                        <h6>72</h6>
+                        <h6>83</h6>
+                        <h6>91</h6>
+                        <h6>87</h6>
+                        <h6>89</h6>
+                        <h6>83</h6>
+                        <h6>86</h6>
+                        <h6>90</h6>
+                        <h6>80</h6>
+                        <h6>83</h6>
+                        <h6>91</h6>
+                        <h6>83</h6>
+                        <h6>93</h6>
+                        <h6>82</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h6 class="text-center click" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">Défenseurs</h6>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                <div class="row noir">
+                    <div class="col-4 text-center">
+                        <h6 class="blanc">Joueur</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6 class="blanc">Numéro</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6 class="blanc">IN</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6 class="blanc">Taille</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6 class="blanc">Poids</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <h6 class="click" id="8" data-toggle="popover" data-img="img/joueur/Chiarot.jpg" title="Ben Chiarot <br>Âge : 28 <br> Date de naissance : 9 mai 1991" data-placement="top" data-content="">Ben Chiarot</h6>
+                        <h6 class="click" id="20" data-toggle="popover" data-img="img/joueur/Fleury.jpg" title="Cale Fleury <br>Âge : 21 <br>Date de naissance : 19 novembre 1998" data-placement="top" data-content="">Cale Fleury</h6>
+                        <h6 class="click" id="32" data-toggle="popover" data-img="img/joueur/Folin.jpg" title="Christian Folin <br>Âge : 28 <br>Date de naissance : 9 février 1991" data-placement="top" data-content="">Christian Folin</h6>
+                        <h6 class="click" id="17" data-toggle="popover" data-img="img/joueur/Kulak.jpg" title="Brett Kulak <br>Âge : 25 <br>Date de naissance : 6 janvier 1994" data-placement="top" data-content="">Brett Kulak</h6>
+                        <h6 class="click" id="64" data-toggle="popover" data-img="img/joueur/Leskinen.jpg" title="Otto Leskinen <br>Âge : 22 <br>Date de naissance : 6 février 1997" data-placement="top" data-content="">Otto Leskinen</h6>
+                        <h6 class="click" id="53" data-toggle="popover" data-img="img/joueur/Mete.jpg" title="Victor Mete <br>Âge : 21 <br>Date de naissance : 7 juin 1998" data-placement="top" data-content="">Victor Mete</h6>
+                        <h6 class="click" id="26" data-toggle="popover" data-img="img/joueur/Petry.jpg" title="Jeff Petry Gallagher <br>Âge : 31 <br>Date de naissance : 9 décembre 1987" data-placement="top" data-content="">Jeff Petry</h6>
+                        <h6 class="click" id="28" data-toggle="popover" data-img="img/joueur/Reilly.jpg" title="Mike Reilly <br>Âge : 26 <br>Date de naissance : 13 juillet 1993" data-placement="top" data-content="">Mike Reilly</h6>
+                        <h6 class="click" id="6" data-toggle="popover" data-img="img/joueur/Weber.jpg" title="Shea Weber <br>Âge : 34 <br>Date de naissance : 14 août 1985" data-placement="top" data-content="">Shea Weber</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6>8</h6>
+                        <h6>20</h6>
+                        <h6>32</h6>
+                        <h6>17</h6>
+                        <h6>64</h6>
+                        <h6>53</h6>
+                        <h6>26</h6>
+                        <h6>28</h6>
+                        <h6>6</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6>G</h6>
+                        <h6>D</h6>
+                        <h6>D</h6>
+                        <h6>G</h6>
+                        <h6>G</h6>
+                        <h6>G</h6>
+                        <h6>D</h6>
+                        <h6>G</h6>
+                        <h6>D</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6>191</h6>
+                        <h6>185</h6>
+                        <h6>193</h6>
+                        <h6>188</h6>
+                        <h6>180</h6>
+                        <h6>175</h6>
+                        <h6>191</h6>
+                        <h6>185</h6>
+                        <h6>193</h6>
+                    </div>
+                    <div class="col-1 text-center">
+                        <h6>102</h6>
+                        <h6>93</h6>
+                        <h6>93</h6>
+                        <h6>86</h6>
+                        <h6>83</h6>
+                        <h6>85</h6>
+                        <h6>91</h6>
+                        <h6>91</h6>
+                        <h6>104</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h6 class="text-center click" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">Gardiens</h6>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                <div class="row noir">
+                    <div class="col-6 text-center">
+                        <h6 class="blanc">Joueur</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6 class="blanc">Numéro</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6 class="blanc">Taille</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6 class="blanc">Poids</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-center">
+                        <h6 class="click" id="31" data-toggle="popover" data-img="img/joueur/Price.jpg" title="Carey Price <br>Âge : 32 <br> Date de naissance : 16 août 1987" data-placement="top" data-content="">Carey Price</h6>
+                        <h6 class="click" id="30" data-toggle="popover" data-img="img/joueur/Primeau.jpg" title="Cayden Primeau <br>Âge : 20 <br>Date de naissance : 11 août 1999" data-placement="top" data-content="">Cayden Primeau</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6>31</h6>
+                        <h6>30</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6>191</h6>
+                        <h6>191</h6>
+                    </div>
+                    <div class="col-2 text-center">
+                        <h6>98</h6>
+                        <h6>90</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row m">
+    <div class="col-xl-4 col-12">
+        <img src="img/joueur/nickSuzuki4.jpg" class="img-fluid" alt="Nick Suzuki"/>
+        <img src="img/joueur/NickSuzuki.jpg" class="img-fluid my-3" alt="Nick Suzuki"/>
+    </div>
+    <div class="col-xl-4 col-12">
+        <img src="img/joueur/NickSuzuki2.jpg" class="img-fluid" alt="Nick Suzuki"/>
+        <img src="img/joueur/nickSuzuki3.jpg" class="img-fluid my-3" alt="Nick Suzuki"/>
+    </div>
+    <div class="col-xl-4 col-12">
+        <img src="img/joueur/canadien.jpg" class="img-fluid" alt="Canadien de Montréal"/>
+        <img src="img/joueur/NickSuzuki5.jpg" class="img-fluid my-3" alt="Nick Suzuki"/>
+    </div>
+</div>
+
+<div class="row m">
+    <div class="col-xl-4 col-md-12 col-sm-12 test">
+        <div class="card canadien">
+            <div class="card-body">
+                <h6 class="blanc">Réseaux sociaux</h6>
+                <div class="row">
+                    <div class="col-6">
+                        <i class="fab fa-facebook"></i>
+                        <p class="blanc">Facebook</p>
+                    </div>
+                    <div class="col-6">
+                        <i class="fab fa-instagram"></i>
+                        <p class="blanc">Instagram</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-md-12 col-sm-12 ">
+        <div class="card canadien padding ">
+            <div class="card-body">
+                <h6 class="blanc">Contact</h6>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">Contact</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-md-12 col-sm-12 test1">
+        <div class="card canadien">
+            <div class="card-body">
+                <h6 class="blanc">Réseaux sociaux</h6>
+                <div class="row">
+                    <div class="col-6">
+                        <i class="fab fa-snapchat"></i>
+                        <p class="blanc">Snapchat</p>
+                    </div>
+                    <div class="col-6">
+                        <i class="fab fa-twitter"></i>
+                        <p class="blanc">Twitter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="email">Adresse courriel</label>
+                        <input type="email" class="form-control" placeholder="Adresse courriel" id="email">
+                    </div>
+                </form>
+                <div class="form-group shadow-textarea">
+                    <label for="exampleFormControlTextarea6">Problèmatique</label>
+                    <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="">Écrivez ici</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Niveau d'urgence</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Urgent</option>
+                        <option>Moyenement urgent</option>
+                        <option>Pas urgent</option>
+                    </select>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11075.626068802434!2d-71.9357294!3d46.05296285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sca!4v1575395722541!5m2!1sfr!2sca" width="465" height="450" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">Envoyer</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fermé</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h1>Merci</h1>
+                <h5>Nous vous répondrons dans les plus bref délais</h5>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fermé</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="myModal22" class="modal fade wow rotateIn" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content modalbg">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="row text-center">
+                    <div class="col-6 rouge">
+                        <h1>Victoire</h1>
+                        <h4>13</h4>
+                    </div>
+                    <div class="col-6 rouge">
+                        <h1>Défaites</h1>
+                        <h4>11</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fermé</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

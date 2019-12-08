@@ -16,5 +16,6 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    AOS.init({duration : 1200,});
+    AOS.init({duration : 1200});
 });
+
