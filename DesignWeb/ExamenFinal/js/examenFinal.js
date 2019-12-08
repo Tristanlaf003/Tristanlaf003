@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover({
         trigger: 'hover',
@@ -16,6 +14,7 @@ $(document).ready(function () {
         $('#myModal22').modal('show');
     });
 });
+
 $(document).ready(function () {
     AOS.init({duration : 1200,});
 });
