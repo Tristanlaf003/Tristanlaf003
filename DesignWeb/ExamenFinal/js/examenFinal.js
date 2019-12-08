@@ -1,4 +1,4 @@
-AOS.init({duration : 1200,});
+
 
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover({
@@ -15,4 +15,7 @@ $(document).ready(function () {
     $(window).on('load',function(){
         $('#myModal22').modal('show');
     });
+});
+$(document).ready(function () {
+    AOS.init({duration : 1200,});
 });
