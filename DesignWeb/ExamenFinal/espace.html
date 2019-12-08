@@ -7,6 +7,11 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/popper.js"></script>
 	<link rel="icon" type="image/png" href="favicon.png" />
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="css/animate.css">
 	<script src="https://kit.fontawesome.com/a46d75ba7a.js" defer></script>
 	<script src="js/jquery-3.4.1.min.js" defer></script>
 	<script src="js/bootstrap.js" defer></script>
@@ -14,18 +19,18 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-xl navbar-dark noir fixed-top">
-	<img src="img/espace.png" height="30" class="imageEspace" alt="Vue de la Terre depuis l'espace"/>
+	<img src="img/espace.png" height="30" class="imageEspace wow wobble" alt="Vue de la Terre depuis l'espace"/>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<i class="fas fa-chevron-down"></i>
 	</button>
 
 	<div class="collapse navbar-collapse" id="navbarNav">
 		<ul class="navbar-nav">
-			<li class="nav-item"><a class="nav-link blanc" href="index.html">Acceuil</a></li>
-			<li class="nav-item"><a class="nav-link blanc" href="hockey.html">Canadien de Montréal</a></li>
-			<li class="nav-item"><a class="nav-link blanc" href='anatomie.html'>Anatomie humaine</a></li>
-			<li class="nav-item active"><a class="nav-link blanc" href="espace.html">L'espace</a></li>
-			<li class="nav-item"><a class="nav-link blanc" href="informatique.html">L'évolution de l'ordinateur</a></li>
+			<li class="nav-item"><a class="nav-link blanc wow rotateInDownLeft" href="index.html">Acceuil</a></li>
+			<li class="nav-item"><a class="nav-link blanc wow rotateInUpLeft" href="hockey.html">Canadien de Montréal</a></li>
+			<li class="nav-item"><a class="nav-link blanc wow rotateIn" href='anatomie.html'>Anatomie humaine</a></li>
+			<li class="nav-item active"><a class="nav-link blanc wow rotateInUpRight" href="espace.html">L'espace</a></li>
+			<li class="nav-item"><a class="nav-link blanc wow rotateInDownRight" href="informatique.html">L'évolution de l'ordinateur</a></li>
 		</ul>
 	</div>
 </nav>
@@ -68,11 +73,11 @@
 			roches les plus intéressantes :</h6>
 			<ul>
 				<li>
-					<h6>MER-A, rebaptisé Spirit, a atterri le 3 janvier 2004 dans le cratère Gusev, une dépression <br> de 170 kilomètres de diamètre
+					<h6 class="lead">MER-A, rebaptisé Spirit, a atterri le 3 janvier 2004 dans le cratère Gusev, une dépression <br> de 170 kilomètres de diamètre
 					qui a peut-être accueilli un lac ;</h6>
 				</li>
 				<li>
-					<h6>
+					<h6 class="lead">
 					MER-B, renommé Opportunity, s'est posé le 24 janvier 2004 sur Meridiani Planum.
 					</h6>
 				</li>

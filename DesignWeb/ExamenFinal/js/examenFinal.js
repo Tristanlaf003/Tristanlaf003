@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover({
-        //trigger: 'focus',
         trigger: 'hover',
         html: true,
         content: function () {
@@ -8,4 +7,10 @@ $(document).ready(function(){
         },
         title: 'Toolbox'
     })
+});
+
+$(document).ready(function () {
+    $(window).on('load',function(){
+        $('#myModal22').modal('show');
+    });
 });

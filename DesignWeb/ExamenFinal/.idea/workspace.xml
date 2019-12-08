@@ -30,11 +30,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tristan\Documents\GitHub\Tristanlaf003\DesignWeb\ExamenFinal\css" />
+      <recent name="C:\Users\Tristan\Documents\GitHub\Tristanlaf003\DesignWeb\ExamenFinal\js" />
       <recent name="C:\Users\Tristan\Documents\GitHub\Tristanlaf003\DesignWeb\ExamenFinal" />
     </key>
   </component>
@@ -74,7 +76,7 @@
       <workItem from="1575655223561" duration="7012000" />
       <workItem from="1575662275597" duration="34000" />
       <workItem from="1575675567525" duration="13885000" />
-      <workItem from="1575748133734" duration="9888000" />
+      <workItem from="1575748133734" duration="17674000" />
     </task>
     <servers />
   </component>
