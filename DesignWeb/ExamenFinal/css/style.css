@@ -65,6 +65,10 @@ head, body {
   margin-top: 70px;
 }
 
+.carousel-inner {
+  height: 1030px;
+}
+
 @media only screen and (max-width: 480px) {
   .nav-item {
     font-size: 2rem;
@@ -108,6 +112,10 @@ head, body {
 
   .imageespace3 {
     margin-top: -10px;
+  }
+
+  .carousel-inner {
+    height: 700px;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 1000px) {
@@ -158,6 +166,11 @@ head, body {
   .imageespace3 {
     margin-top: -10px;
   }
+
+  .carousel-inner {
+    height: 700px;
+    margin-top: 50px;
+  }
 }
 @media screen and (min-width: 1001px) and (max-width: 1200px) {
   li {
@@ -206,6 +219,11 @@ head, body {
 
   .imageespace3 {
     margin-top: -35px;
+  }
+
+  .carousel-inner {
+    height: 700px;
+    margin-top: 50px;
   }
 }
 .shadow-textarea textarea.form-control::placeholder {
@@ -280,10 +298,6 @@ head, body {
   margin-top: -30px;
 }
 
-.carousel-inner {
-  height: 750px;
-}
-
 .modalbg {
   background-image: url("../img/joueur/NickSuzuki5.jpg");
   width: 100%;
@@ -293,6 +307,10 @@ head, body {
 
 .rouge {
   color: red;
+}
+
+.padding2 {
+  padding: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
