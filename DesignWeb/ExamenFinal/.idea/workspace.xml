@@ -16,10 +16,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Sass File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="index" />
+        <option value="JavaScript File" />
+        <option value="Sass File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,6 +53,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ExamenFinal/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -84,7 +95,7 @@
       <workItem from="1575906950568" duration="1777000" />
       <workItem from="1575998654850" duration="392000" />
       <workItem from="1575999680168" duration="580000" />
-      <workItem from="1576000911167" duration="1201000" />
+      <workItem from="1576000911167" duration="5838000" />
     </task>
     <servers />
   </component>
