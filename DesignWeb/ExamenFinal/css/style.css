@@ -207,6 +207,42 @@ head, body {
 
   .padding2 {
     padding: 100px;
+    background-image: url("../img/iss.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  .parallax2 {
+    background-image: url("../img/rover.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .parallax3 {
+    background-image: url("../img/voieLactée.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .parallax4 {
+    background-image: url("../img/supernova.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 1000px) {
@@ -266,6 +302,46 @@ head, body {
   .padding2 {
     padding: 100px;
   }
+
+  .parallax {
+    background-image: url("../img/iss.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .parallax2 {
+    background-image: url("../img/rover.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .parallax3 {
+    background-image: url("../img/voieLactée.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .parallax4 {
+    background-image: url("../img/supernova.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
 }
 @media screen and (min-width: 1001px) and (max-width: 1200px) {
   li {
@@ -323,6 +399,42 @@ head, body {
 
   .padding2 {
     padding: 100px;
+    background-image: url("../img/iss.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  .parallax2 {
+    background-image: url("../img/rover.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .parallax3 {
+    background-image: url("../img/voieLactée.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .parallax4 {
+    background-image: url("../img/supernova.jpg");
+    min-height: 480px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
   }
 }
 
