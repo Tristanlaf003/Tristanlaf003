@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98c6b9e4-f899-4fa8-b05f-19077b0a3b69" name="Default Changelist" comment="" />
+    <list default="true" id="c38ee5e3-4223-4474-bb9d-07f001f72ece" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="index" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -24,11 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1Tn3rBDXoI0j2hI4uS6R76Rr7KR" />
+  <component name="ProjectId" id="1UZeGnWuQhsPy6RaNZIcNpsC8J3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ExamenFinal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DesignWeb/ExamenFinal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,30 +48,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="98c6b9e4-f899-4fa8-b05f-19077b0a3b69" name="Default Changelist" comment="" />
-      <created>1574082228961</created>
+      <changelist id="c38ee5e3-4223-4474-bb9d-07f001f72ece" name="Default Changelist" comment="" />
+      <created>1575568451248</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574082228961</updated>
-      <workItem from="1574082230107" duration="1315000" />
-      <workItem from="1574272320643" duration="7772000" />
-      <workItem from="1574280175845" duration="136000" />
-      <workItem from="1574291408754" duration="23000" />
-      <workItem from="1574360377411" duration="5967000" />
-      <workItem from="1574370142581" duration="15000" />
-      <workItem from="1574687789879" duration="6197000" />
-      <workItem from="1574787740687" duration="2253000" />
-      <workItem from="1574877591821" duration="6589000" />
-      <workItem from="1574946227440" duration="32000" />
-      <workItem from="1574961876453" duration="322000" />
-      <workItem from="1574966890780" duration="4387000" />
-      <workItem from="1575048248667" duration="72000" />
-      <workItem from="1575050464607" duration="969000" />
-      <workItem from="1575053051314" duration="601000" />
-      <workItem from="1575291649410" duration="884000" />
-      <workItem from="1575567432628" duration="149000" />
-      <workItem from="1575568371018" duration="80000" />
-      <workItem from="1575572740971" duration="619000" />
+      <updated>1575568451248</updated>
+      <workItem from="1575568452406" duration="4821000" />
+      <workItem from="1575573362019" duration="7000" />
+      <workItem from="1575637427311" duration="291000" />
+      <workItem from="1575653952583" duration="36000" />
+      <workItem from="1575654002242" duration="53000" />
     </task>
     <servers />
   </component>
@@ -89,16 +76,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/question5.js</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
