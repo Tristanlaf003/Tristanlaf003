@@ -207,6 +207,13 @@ head, body {
 
   .padding2 {
     padding: 100px;
+  }
+
+  .video1 {
+    margin-top: 90px;
+  }
+
+  .parallax {
     background-image: url("../img/iss.jpg");
     min-height: 480px;
     background-attachment: fixed;
@@ -215,6 +222,7 @@ head, body {
     background-size: cover;
     height: 100%;
   }
+
   .parallax2 {
     background-image: url("../img/rover.jpg");
     min-height: 480px;
@@ -301,6 +309,10 @@ head, body {
 
   .padding2 {
     padding: 100px;
+  }
+
+  .video1 {
+    margin-top: 90px;
   }
 
   .parallax {
@@ -399,6 +411,13 @@ head, body {
 
   .padding2 {
     padding: 100px;
+  }
+
+  .video1 {
+    margin-top: 70px;
+  }
+
+  .parallax {
     background-image: url("../img/iss.jpg");
     min-height: 480px;
     background-attachment: fixed;
@@ -407,6 +426,7 @@ head, body {
     background-size: cover;
     height: 100%;
   }
+
   .parallax2 {
     background-image: url("../img/rover.jpg");
     min-height: 480px;
