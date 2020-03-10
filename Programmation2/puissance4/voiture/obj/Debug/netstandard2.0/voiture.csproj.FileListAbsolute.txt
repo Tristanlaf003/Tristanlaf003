@@ -1,0 +1,7 @@
+C:\Users\Tristan\source\repos\puissance4\voiture\bin\Debug\netstandard2.0\voiture.deps.json
+C:\Users\Tristan\source\repos\puissance4\voiture\bin\Debug\netstandard2.0\voiture.dll
+C:\Users\Tristan\source\repos\puissance4\voiture\bin\Debug\netstandard2.0\voiture.pdb
+C:\Users\Tristan\source\repos\puissance4\voiture\obj\Debug\netstandard2.0\voiture.AssemblyInfoInputs.cache
+C:\Users\Tristan\source\repos\puissance4\voiture\obj\Debug\netstandard2.0\voiture.AssemblyInfo.cs
+C:\Users\Tristan\source\repos\puissance4\voiture\obj\Debug\netstandard2.0\voiture.dll
+C:\Users\Tristan\source\repos\puissance4\voiture\obj\Debug\netstandard2.0\voiture.pdb

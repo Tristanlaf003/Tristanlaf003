@@ -1,0 +1,9 @@
+C:\Users\Tristan\source\repos\JeuxDeLaVie\AffichageJeuxDeLaVie\bin\Debug\AffichageJeuxDeLaVie.exe.config
+C:\Users\Tristan\source\repos\JeuxDeLaVie\AffichageJeuxDeLaVie\bin\Debug\AffichageJeuxDeLaVie.exe
+C:\Users\Tristan\source\repos\JeuxDeLaVie\AffichageJeuxDeLaVie\bin\Debug\AffichageJeuxDeLaVie.pdb
+C:\Users\Tristan\source\repos\JeuxDeLaVie\AffichageJeuxDeLaVie\bin\Debug\JeuxDeLaVie.dll
+C:\Users\Tristan\source\repos\JeuxDeLaVie\AffichageJeuxDeLaVie\bin\Debug\JeuxDeLaVie.pdb
+C:\Users\Tristan\source\repos\JeuxDeLaVie\AffichageJeuxDeLaVie\obj\Debug\AffichageJeuxDeLaVie.csprojAssemblyReference.cache
+C:\Users\Tristan\source\repos\JeuxDeLaVie\AffichageJeuxDeLaVie\obj\Debug\AffichageJeuxDeLaVie.csproj.CopyComplete
+C:\Users\Tristan\source\repos\JeuxDeLaVie\AffichageJeuxDeLaVie\obj\Debug\AffichageJeuxDeLaVie.exe
+C:\Users\Tristan\source\repos\JeuxDeLaVie\AffichageJeuxDeLaVie\obj\Debug\AffichageJeuxDeLaVie.pdb

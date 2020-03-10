@@ -1,0 +1,9 @@
+C:\Users\Tristan\source\repos\puissance4\AffichageJeux\bin\Debug\AffichageJeux.exe.config
+C:\Users\Tristan\source\repos\puissance4\AffichageJeux\bin\Debug\AffichageJeux.exe
+C:\Users\Tristan\source\repos\puissance4\AffichageJeux\bin\Debug\AffichageJeux.pdb
+C:\Users\Tristan\source\repos\puissance4\AffichageJeux\obj\Debug\AffichageJeux.csprojAssemblyReference.cache
+C:\Users\Tristan\source\repos\puissance4\AffichageJeux\obj\Debug\AffichageJeux.exe
+C:\Users\Tristan\source\repos\puissance4\AffichageJeux\obj\Debug\AffichageJeux.pdb
+C:\Users\Tristan\source\repos\puissance4\AffichageJeux\bin\Debug\puissance4.dll
+C:\Users\Tristan\source\repos\puissance4\AffichageJeux\bin\Debug\puissance4.pdb
+C:\Users\Tristan\source\repos\puissance4\AffichageJeux\obj\Debug\AffichageJeux.csproj.CopyComplete

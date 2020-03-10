@@ -1,0 +1,6 @@
+C:\Users\Tristan\source\repos\Tictactoe2\Tictactoe2\bin\Debug\Tictactoe2.exe.config
+C:\Users\Tristan\source\repos\Tictactoe2\Tictactoe2\bin\Debug\Tictactoe2.exe
+C:\Users\Tristan\source\repos\Tictactoe2\Tictactoe2\bin\Debug\Tictactoe2.pdb
+C:\Users\Tristan\source\repos\Tictactoe2\Tictactoe2\obj\Debug\Tictactoe2.csprojAssemblyReference.cache
+C:\Users\Tristan\source\repos\Tictactoe2\Tictactoe2\obj\Debug\Tictactoe2.exe
+C:\Users\Tristan\source\repos\Tictactoe2\Tictactoe2\obj\Debug\Tictactoe2.pdb

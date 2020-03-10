@@ -1,0 +1,8 @@
+C:\Users\Tristan\source\repos\JeuxDeLaVie\JeuxDeLaVie\bin\Debug\netstandard2.0\JeuxDeLaVie.deps.json
+C:\Users\Tristan\source\repos\JeuxDeLaVie\JeuxDeLaVie\bin\Debug\netstandard2.0\JeuxDeLaVie.dll
+C:\Users\Tristan\source\repos\JeuxDeLaVie\JeuxDeLaVie\bin\Debug\netstandard2.0\JeuxDeLaVie.pdb
+C:\Users\Tristan\source\repos\JeuxDeLaVie\JeuxDeLaVie\obj\Debug\netstandard2.0\JeuxDeLaVie.csprojAssemblyReference.cache
+C:\Users\Tristan\source\repos\JeuxDeLaVie\JeuxDeLaVie\obj\Debug\netstandard2.0\JeuxDeLaVie.AssemblyInfoInputs.cache
+C:\Users\Tristan\source\repos\JeuxDeLaVie\JeuxDeLaVie\obj\Debug\netstandard2.0\JeuxDeLaVie.AssemblyInfo.cs
+C:\Users\Tristan\source\repos\JeuxDeLaVie\JeuxDeLaVie\obj\Debug\netstandard2.0\JeuxDeLaVie.dll
+C:\Users\Tristan\source\repos\JeuxDeLaVie\JeuxDeLaVie\obj\Debug\netstandard2.0\JeuxDeLaVie.pdb
