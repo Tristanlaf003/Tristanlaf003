@@ -6,5 +6,6 @@ namespace Bank
 {
     public class Compte
     {
+        private int montantArgent;
     }
 }
