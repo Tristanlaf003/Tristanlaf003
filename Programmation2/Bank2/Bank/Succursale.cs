@@ -13,11 +13,14 @@ namespace Bank
         public Succursale(string nomSuccursale, int numeroIdentification )
         {
             this.NomSuccursale = nomSuccursale;
-            this.numeroIdentification = numeroIdentification;
+            this.NumeroIdentification = numeroIdentification;
         }
+
 
         public int NumeroIdentification { get => numeroIdentification; set => numeroIdentification = value; }
         public string NomSuccursale { get => nomSuccursale; set => nomSuccursale = value; }
+
+
 
         /// <summary>
         /// Permet d'ajouter un clients dans une succursale
@@ -29,6 +32,20 @@ namespace Bank
             lesClients.Add(leClient);
             return lesClients.Count;
         }
+
+        public bool AjouterCompte(Compte compte)
+        {
+            foreach (Clients clients in lesClients)
+            {
+                if (clients.PrenomClient == clients.PrenomClient)
+                {
+                    clients.AjouterCompte(compte);
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public override string ToString()
         {
             return "Nom de la succursale : " + nomSuccursale + "\nNuméro d'identification : " + numeroIdentification + "\n";
