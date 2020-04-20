@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace Bank
 {
     public class Desjardins
     {
-        private string nomBank = "Desjardins";
-        private string numroInstitution = "815";
+        const string nomBank = "Desjardins";
+        const string numroInstitution = "815";
         private List<Succursale> lesSuccursale = new List<Succursale>();
+        private string nomSuccursale;
+
+        public string NomSuccursale { get => nomSuccursale; set => nomSuccursale = value; }
 
         /// <summary>
         /// Permet d'ajouter une succursale à la bank
@@ -18,6 +22,24 @@ namespace Bank
         {
             lesSuccursale.Add(leSuccursale);
             return lesSuccursale.Count;
+        }
+
+        public bool AjouterClient(Clients clients)
+        {
+            foreach (Succursale succursale in lesSuccursale)
+            {
+                if (succursale.NomSuccursale == NomSuccursale)
+                {
+                    succursale.AjouterClients(clients);
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString();
         }
     }
 }
