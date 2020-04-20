@@ -6,9 +6,18 @@ namespace Bank
 {
     public class Clients
     {
-        private uint numeroCompte;
-        private ushort chiffreVerificateur;
+        private string prenomClient;
+        private string nomClient;
         private List<Compte> lesComptes = new List<Compte>();
+
+        public Clients(string prenomClient, string nomClient)
+        {
+            this.PrenomClient = prenomClient;
+            this.NomClient = nomClient;
+        }
+
+        public string PrenomClient { get => prenomClient; set => prenomClient = value; }
+        public string NomClient { get => nomClient; set => nomClient = value; }
 
         /// <summary>
         /// Permet d'ajouter un compte à un client
