@@ -78,6 +78,19 @@ namespace Bank
             return false;
         }
 
+        public bool DepotArgent(int montant, Clients clients, Compte compte, Succursale succursale)
+        {
+            foreach (Succursale succursale1 in lesSuccursale)
+            {
+                if (succursale1.Equals(succursale))
+                {
+                    succursale1.DepotArgent(montant, compte, clients);
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public override string ToString()
         {
             return base.ToString();
