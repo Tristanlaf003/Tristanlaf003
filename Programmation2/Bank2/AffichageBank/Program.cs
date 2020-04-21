@@ -23,8 +23,6 @@ namespace AffichageBank
             clients.PrenomClient = "Tristan";
             bank.AjouterCompte(compte);
 
-            Console.ReadLine();
-
             /*///Supprimer un compte
             //Succursale succursale1 = new Succursale("Victoriaville", 1234567);
             Compte compte1 = new Compte(123456, 7, 10);
@@ -32,12 +30,19 @@ namespace AffichageBank
             bank.SupprimerCompte(compte1);*/
 
             ///Dépôt d'argent
-            int montant = 100;
-            Clients clients2 = new Clients("Tristan", "Lafontaine");
-            Compte compte2 = new Compte(123456,7,0);
-            Succursale succursale2 = new Succursale("Victoriaville",12345);
-            bank.DepotArgent(montant, clients2, compte2, succursale2);
-            
+            int montantDepot = 100;
+            Clients clientsDepot = new Clients("Tristan", "Lafontaine");
+            Compte compteDepot = new Compte(123456,7,0);
+            Succursale succursaleDepot = new Succursale("Victoriaville",12345);
+            bank.DepotArgent(montantDepot, clientsDepot, compteDepot, succursaleDepot);
+
+            ///Retrait d'argent
+            int montantRetrait = 50;
+            Clients clientsRetrait = new Clients("Tristan", "Lafontaine");
+            Compte compteRetrait = new Compte(123456, 7, 0);
+            Succursale succursaleRetrait = new Succursale("Victoriaville", 12345);
+            bank.RetraitArgent(montantRetrait, clientsRetrait, compteRetrait, succursaleRetrait);
+
         }
 
         private static Desjardins GenerationDesSuccursale()
