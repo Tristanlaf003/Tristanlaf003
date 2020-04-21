@@ -30,8 +30,6 @@ namespace Bank
             return lesComptes.Count;
         }
 
-        
-
         /// <summary>
         /// Permet de supprimer un compte d'un client
         /// </summary>
@@ -44,6 +42,25 @@ namespace Bank
                 if (compte1.Equals(compte))
                 {
                     lesComptes.Remove(compte);
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Permet de faire un dépôt d'argent dans un compte
+        /// </summary>
+        /// <param name="montantArgent"></param>
+        /// <param name="compte"></param>
+        /// <returns>Vrai si le dépôt à fonctionner et faux si le dépôt n'a pas fonctionner</returns>
+        public bool DepotArgent(int montantArgent, Compte compte)
+        {
+            foreach (Compte compte1 in lesComptes)
+            {
+                if (compte1.Equals(compte))
+                {
+                    compte1.DepotArgent(montantArgent);
                     return true;
                 }
             }
