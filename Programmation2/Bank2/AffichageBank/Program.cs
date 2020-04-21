@@ -25,11 +25,18 @@ namespace AffichageBank
 
             Console.ReadLine();
 
-            ///Supprimer un compte
+            /*///Supprimer un compte
             //Succursale succursale1 = new Succursale("Victoriaville", 1234567);
             Compte compte1 = new Compte(123456, 7, 10);
             bank.NomSuccursale = "Victoriaville";
-            bank.SupprimerCompte(compte1);
+            bank.SupprimerCompte(compte1);*/
+
+            ///Dépôt d'argent
+            int montant = 100;
+            Clients clients2 = new Clients("Tristan", "Lafontaine");
+            Compte compte2 = new Compte(123456,7,0);
+            Succursale succursale2 = new Succursale("Victoriaville",12345);
+            bank.DepotArgent(montant, clients2, compte2, succursale2);
             
         }
 
@@ -38,14 +45,11 @@ namespace AffichageBank
             const int MaxSuccursale = 3;
             string[] nomSuccursale = new string[MaxSuccursale] { "Victoriaville", "Montréal", "Québec" };
 
-            Random rnd = new Random();
             Desjardins bank = new Desjardins();
 
             for (int compteurSuccursale = 0; compteurSuccursale < MaxSuccursale; compteurSuccursale++)
             {
-                int randomIdentification = rnd.Next(10000, 99999) + 1;
-
-                Succursale nouvelleSuccursale = new Succursale(nomSuccursale[compteurSuccursale], randomIdentification);
+                Succursale nouvelleSuccursale = new Succursale(nomSuccursale[compteurSuccursale],12345);
                 bank.AjouterSuccursale(nouvelleSuccursale);
             }
             return bank;
