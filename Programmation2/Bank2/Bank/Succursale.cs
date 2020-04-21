@@ -7,16 +7,16 @@ namespace Bank
     public class Succursale : IEquatable<Succursale>
     {
         private List<Clients> lesClients = new List<Clients>();
-        private int numeroIdentification;
+        private uint numeroIdentification;
         private string nomSuccursale;
 
-        public Succursale(string nomSuccursale, int numeroIdentification )
+        public Succursale(string nomSuccursale, uint numeroIdentification )
         {
             this.NomSuccursale = nomSuccursale;
             this.NumeroIdentification = numeroIdentification;
         }
 
-        public int NumeroIdentification { get => numeroIdentification; set => numeroIdentification = value; }
+        public uint NumeroIdentification { get => numeroIdentification; set => numeroIdentification = value; }
         public string NomSuccursale { get => nomSuccursale; set => nomSuccursale = value; }
 
         /// <summary>
