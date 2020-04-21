@@ -8,37 +8,17 @@ namespace Bank
     {
         private uint numeroCompte;
         private ushort chiffreVerificateur;
-        private int montantArgent;
+        private int montantArgent = 0;
 
-        public Compte(uint numeroCompte, ushort chiffreVerificateur, int montantArgent)
+        public Compte(uint numeroCompte, ushort chiffreVerificateur)
         {
             this.NumeroCompte = numeroCompte;
             this.ChiffreVerificateur = chiffreVerificateur;
-            this.MontantArgent1 = montantArgent;
         }
 
-        public int MontantArgent { get => MontantArgent1; set => MontantArgent1 = value; }
         public uint NumeroCompte { get => numeroCompte; set => numeroCompte = value; }
         public ushort ChiffreVerificateur { get => chiffreVerificateur; set => chiffreVerificateur = value; }
         public int MontantArgent1 { get => montantArgent; set => montantArgent = value; }
-
-        /// <summary>
-        /// Permet de vérifier si c'est bien un ojet qui n'est pas null et que c'est un objet de type Compte
-        /// </summary>
-        /// <param name="obj"></param>
-        /// <returns>Vrai si l'oject n'est pas null et qui est de type compte</returns>
-        public override bool Equals(object obj)
-        {
-            if (obj == null)
-            {
-                return false;
-            }
-            if (!(obj is Compte))
-            {
-                return false;
-            }
-            return Equals(obj as Compte);
-        }
 
         /// <summary>
         ///  Permet de faire un dépôt d'argent au compte
@@ -59,7 +39,25 @@ namespace Bank
         public int RetraitArgent(int montantArgent)
         {
             MontantArgent1 -= montantArgent;
-            return MontantArgent1;
+            return MontantArgent1; 
+        }
+
+        /// <summary>
+        /// Permet de vérifier si c'est bien un ojet qui n'est pas null et que c'est un objet de type Compte
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns>Vrai si l'oject n'est pas null et qui est de type compte</returns>
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+            {
+                return false;
+            }
+            if (!(obj is Compte))
+            {
+                return false;
+            }
+            return Equals(obj as Compte);
         }
 
         /// <summary>
