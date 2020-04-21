@@ -13,15 +13,24 @@ namespace AffichageBank
             ///Permet d'inscrire un client donc le prénom est Tristan et le nom est Lafontaine
             Console.WriteLine("Entrez le nom de la caisse");
             Clients clients = new Clients("Tristan", "Lafontaine");
-            bank.NomSuccursale = Console.ReadLine();
+            bank.NomSuccursale = "Victoriaville";
             bank.AjouterClient(clients);
-            Console.WriteLine(bank.ToString());
 
+            ///Permet d'ajouter un compte à un client
             Console.WriteLine("Entrez le nom de la caisse");
             Compte compte = new Compte(123456, 7, 0);
-            bank.NomSuccursale = Console.ReadLine();
+            bank.NomSuccursale = "Victoriaville";
             clients.PrenomClient = "Tristan";
             bank.AjouterCompte(compte);
+
+            Console.ReadLine();
+
+            ///Supprimer un compte
+            //Succursale succursale1 = new Succursale("Victoriaville", 1234567);
+            Compte compte1 = new Compte(123456, 7, 10);
+            bank.NomSuccursale = "Victoriaville";
+            bank.SupprimerCompte(compte1);
+            
         }
 
         private static Desjardins GenerationDesSuccursale()
