@@ -70,6 +70,26 @@ namespace Bank
         }
 
         /// <summary>
+        /// Permet de faire un dépôt d'argent
+        /// </summary>
+        /// <param name="montantArgent"></param>
+        /// <param name="clients"></param>
+        /// <param name="compte"></param>
+        /// <returns>Retourne vrai si le dépôt est réussi, sinon il retourne faux</returns>
+        public bool DepotArgent(int montantArgent, Compte compte, Clients clients)
+        {
+            foreach (Clients clients1 in lesClients)
+            {
+                if (clients1.Equals(clients))
+                {
+                    clients1.DepotArgent(montantArgent, compte);
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /// <summary>
         /// Permet de vérifier si c'est bien un objet qui est entrain de comparaitre
         /// </summary>
         /// <param name="obj"></param>
