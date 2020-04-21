@@ -11,24 +11,22 @@ namespace AffichageBank
             Desjardins bank = GenerationDesSuccursale();
 
             ///Permet d'inscrire un client donc le prénom est Tristan et le nom est Lafontaine
-            Console.WriteLine("Entrez le nom de la caisse");
-            Clients clients = new Clients("Tristan", "Lafontaine");
-            bank.NomSuccursale = "Victoriaville";
-            bank.AjouterClient(clients);
+            Clients clientsAjouter = new Clients("Tristan", "Lafontaine");
+            Succursale succursaleAjouter = new Succursale("Victoriaville", 12345);
+            bank.AjouterClient(clientsAjouter, succursaleAjouter);
 
             ///Permet d'ajouter un compte à un client
-            Console.WriteLine("Entrez le nom de la caisse");
-            Compte compte = new Compte(123456, 7, 0);
-            bank.NomSuccursale = "Victoriaville";
-            clients.PrenomClient = "Tristan";
-            bank.AjouterCompte(compte);
-
-            /*///Supprimer un compte
-            //Succursale succursale1 = new Succursale("Victoriaville", 1234567);
-            Compte compte1 = new Compte(123456, 7, 10);
-            bank.NomSuccursale = "Victoriaville";
-            bank.SupprimerCompte(compte1);*/
-
+            Compte compteAjouterCompte = new Compte(123456, 7, 0);
+            Clients clientAjouterCompte = new Clients("Tristan", "Lafontaine");
+            Succursale succursaleAjouterCompte = new Succursale("Victoriaville", 12345);
+            bank.AjouterCompte(compteAjouterCompte,clientAjouterCompte,succursaleAjouterCompte);
+            /*
+            ///Supprimer un compte
+            Compte compteSupprime = new Compte(123456, 7, 10);
+            Clients clientSupprime = new Clients("Tristan", "Lafontaine");
+            Succursale succursaleSupprime = new Succursale("Victoriaville",12345);
+            bank.SupprimerCompte(compteSupprime, clientSupprime,succursaleSupprime);
+            */
             ///Dépôt d'argent
             int montantDepot = 100;
             Clients clientsDepot = new Clients("Tristan", "Lafontaine");
