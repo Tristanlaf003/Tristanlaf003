@@ -60,6 +60,24 @@ namespace Bank
             return false;
         }
 
+        /// <summary>
+        /// Permet de supprimer un compte d'un client
+        /// </summary>
+        /// <param name="compte"></param>
+        /// <returns>Vrai si le compte est supprimer ou faux si le compte n'est pas supprimer</returns>
+        public bool SupprimerCompte(Compte compte)
+        {
+            foreach(Succursale succursale in lesSuccursale)
+            {
+                if (succursale.NomSuccursale.Equals(NomSuccursale))
+                {
+                    succursale.SupprimerCompte(compte);
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public override string ToString()
         {
             return base.ToString();
