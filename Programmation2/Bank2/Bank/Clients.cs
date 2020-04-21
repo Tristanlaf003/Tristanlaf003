@@ -24,9 +24,9 @@ namespace Bank
         /// </summary>
         /// <param name="leCompte"></param>
         /// <returns>Nombre de compte que possède un client</returns>
-        public int AjouterCompte(Compte leCompte)
+        public int AjouterCompte(Compte Compte)
         {
-            lesComptes.Add(leCompte);
+            lesComptes.Add(Compte);
             return lesComptes.Count;
         }
 
