@@ -16,11 +16,8 @@ namespace Bank
             this.NumeroIdentification = numeroIdentification;
         }
 
-
         public int NumeroIdentification { get => numeroIdentification; set => numeroIdentification = value; }
         public string NomSuccursale { get => nomSuccursale; set => nomSuccursale = value; }
-
-
 
         /// <summary>
         /// Permet d'ajouter un clients dans une succursale
@@ -38,13 +35,13 @@ namespace Bank
         /// </summary>
         /// <param name="compte"></param>
         /// <returns>Vrai si il a ajouter un compte sinon faux</returns>
-        public bool AjouterCompte(Compte compte)
+        public bool AjouterCompte(Compte compte, Clients clients)
         {
-            foreach (Clients clients in lesClients)
+            foreach (Clients clients1 in lesClients)
             { 
-                if (clients.NomClient.Equals(clients.NomClient))
+                if (clients1.Equals(clients))
                 {
-                    clients.AjouterCompte(compte);
+                    clients1.AjouterCompte(compte);
                     return true;
                 }
             }
@@ -56,13 +53,13 @@ namespace Bank
         /// </summary>
         /// <param name="compte"></param>
         /// <returns>Vrai si le compte est supprimer et faux si le compte n'est pas supprimer</returns>
-        public bool SupprimerCompte(Compte compte)
+        public bool SupprimerCompte(Compte compte , Clients clients)
         {
-            foreach (Clients clients in lesClients)
+            foreach (Clients clients1 in lesClients)
             {
-                if (clients.NomClient.Equals(clients.NomClient))
+                if (clients1.Equals(clients))
                 {
-                    clients.SupprimerCompte(compte);
+                    clients1.SupprimerCompte(compte);
                     return true;
                 }
             }
@@ -144,11 +141,6 @@ namespace Bank
             hashCode = hashCode * -1521134295 + NumeroIdentification.GetHashCode();
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(NomSuccursale);
             return hashCode;
-        }
-
-        public override string ToString()
-        {
-            return "Nom de la succursale : " + nomSuccursale + "\nNuméro d'identification : " + numeroIdentification + "\n";
         }
     }
 }
