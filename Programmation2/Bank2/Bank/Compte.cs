@@ -41,6 +41,28 @@ namespace Bank
         }
 
         /// <summary>
+        ///  Permet de faire un dépôt d'argent au compte
+        /// </summary>
+        /// <param name="montantArgent"></param>
+        /// <returns>Retourne le montant d'argent</returns>
+        public int DepotArgent(int montantArgent)
+        {
+            MontantArgent1 += montantArgent;
+            return MontantArgent1;
+        }
+
+        /// <summary>
+        /// Permet de faire un retrait d'argent au compte
+        /// </summary>
+        /// <param name="montantArgent"></param>
+        /// <returns>Returne le montant d'argent</returns>
+        public int RetraitArgent(int montantArgent)
+        {
+            MontantArgent1 -= montantArgent;
+            return MontantArgent1;
+        }
+
+        /// <summary>
         /// Equals avec un compte comme autre élément
         /// </summary>
         /// <param name="other"></param>
