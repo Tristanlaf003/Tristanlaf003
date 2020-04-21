@@ -53,7 +53,7 @@ namespace Bank
         /// </summary>
         /// <param name="montantArgent"></param>
         /// <param name="compte"></param>
-        /// <returns>Vrai si le dépôt à fonctionner et faux si le dépôt n'a pas fonctionner</returns>
+        /// <returns>Vrai si le dépôt a fonctionné et faux si le dépôt n'a pas fonctionné</returns>
         public bool DepotArgent(int montantArgent, Compte compte)
         {
             foreach (Compte compte1 in lesComptes)
@@ -61,6 +61,25 @@ namespace Bank
                 if (compte1.Equals(compte))
                 {
                     compte1.DepotArgent(montantArgent);
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Permet de faire un retrait d'argent
+        /// </summary>
+        /// <param name="montantArgent"></param>
+        /// <param name="compte"></param>
+        /// <returns>Vrai si le retrait a fonctionné et faux si le retrait n'a pas fonctionné</returns>
+        public bool RetraitArgent(int montantArgent, Compte compte)
+        {
+            foreach (Compte compte1 in lesComptes)
+            {
+                if (compte1.Equals(compte))
+                {
+                    compte1.RetraitArgent(montantArgent);
                     return true;
                 }
             }
