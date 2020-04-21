@@ -7,7 +7,7 @@ namespace Bank
     public class Desjardins
     {
         const string NomBank = "Desjardins";
-        const string NumroInstitution = "815";
+        const ushort NumroInstitution = 815;
         private List<Succursale> lesSuccursale = new List<Succursale>();
 
         /// <summary>
