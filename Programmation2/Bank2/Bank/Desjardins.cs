@@ -9,9 +9,6 @@ namespace Bank
         const string nomBank = "Desjardins";
         const string numroInstitution = "815";
         private List<Succursale> lesSuccursale = new List<Succursale>();
-        private string nomSuccursale;
-
-        public string NomSuccursale { get => nomSuccursale; set => nomSuccursale = value; }
 
         /// <summary>
         /// Permet d'ajouter une succursale à la bank
@@ -29,13 +26,13 @@ namespace Bank
         /// </summary>
         /// <param name="clients"></param>
         /// <returns>Retourne vrai ou faux</returns>
-        public bool AjouterClient(Clients clients)
+        public bool AjouterClient(Clients clients, Succursale succursale)
         {
-            foreach (Succursale succursale in lesSuccursale)
+            foreach (Succursale succursale1 in lesSuccursale)
             {
-                if (succursale.NomSuccursale.Equals(NomSuccursale))
+                if (succursale1.Equals(succursale))
                 {
-                    succursale.AjouterClients(clients);
+                    succursale1.AjouterClients(clients);
                     return true;
                 }
             }
@@ -47,13 +44,13 @@ namespace Bank
         /// </summary>
         /// <param name="compte"></param>
         /// <returns>Retourne vrai ou faux</returns>
-        public bool AjouterCompte(Compte compte)
+        public bool AjouterCompte(Compte compte, Clients clients, Succursale succursale)
         {
-            foreach (Succursale succursale in lesSuccursale)
+            foreach (Succursale succursale1 in lesSuccursale)
             {
-                if (succursale.NomSuccursale.Equals(NomSuccursale))
+                if (succursale1.Equals(succursale))
                 {
-                    succursale.AjouterCompte(compte);
+                    succursale1.AjouterCompte(compte, clients);
                     return true;
                 }
             }
@@ -65,13 +62,13 @@ namespace Bank
         /// </summary>
         /// <param name="compte"></param>
         /// <returns>Vrai si le compte est supprimer ou faux si le compte n'est pas supprimer</returns>
-        public bool SupprimerCompte(Compte compte)
+        public bool SupprimerCompte(Compte compte, Clients clients, Succursale succursale)
         {
-            foreach(Succursale succursale in lesSuccursale)
+            foreach(Succursale succursale1 in lesSuccursale)
             {
-                if (succursale.NomSuccursale.Equals(NomSuccursale))
+                if (succursale1.Equals(succursale))
                 {
-                    succursale.SupprimerCompte(compte);
+                    succursale1.SupprimerCompte(compte, clients);
                     return true;
                 }
             }
@@ -118,11 +115,6 @@ namespace Bank
                 }
             }
             return false;
-        }
-
-        public override string ToString()
-        {
-            return base.ToString();
         }
     }
 }
