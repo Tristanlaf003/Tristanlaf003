@@ -90,6 +90,26 @@ namespace Bank
         }
 
         /// <summary>
+        /// Permet de faire un retrait d'argent
+        /// </summary>
+        /// <param name="montantArgent"></param>
+        /// <param name="compte"></param>
+        /// <param name="clients"></param>
+        /// <returns>Vrai si le retrait a fonctionné et faux si le retrait n'a pas fonctionné</returns>
+        public bool RetraitArgent(int montantArgent, Compte compte, Clients clients)
+        {
+            foreach (Clients clients1 in lesClients)
+            {
+                if (clients1.Equals(clients))
+                {
+                    clients1.RetraitArgent(montantArgent, compte);
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /// <summary>
         /// Permet de vérifier si c'est bien un objet qui est entrain de comparaitre
         /// </summary>
         /// <param name="obj"></param>
